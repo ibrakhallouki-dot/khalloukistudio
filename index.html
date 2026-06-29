@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khallouki Studio — Premium Design Portfolio</title>
+
+    <meta name="description" content="Khallouki Studio — premium branding & digital design. High-end visual identity for visionary brands." />
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://khalloukistudio.com" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Khallouki Studio — Premium Design Portfolio" />
+    <meta property="og:description" content="High-end branding, logo design & digital experiences." />
+    <meta property="og:type" content="website" />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Analytics -->
+    <!-- ⚠️ ضع GA ID الحقيقي هنا -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XXXXXXX');
+    </script>
+
+    <style>
+        body {
+            background:#0a0a0a;
+            color:white;
+            font-family:system-ui;
+        }
+        .gold { color:#d4af37; }
+        .btn-primary {
+            background:#d4af37;
+            padding:10px 20px;
+            border-radius:999px;
+            font-weight:600;
+            display:inline-block;
+        }
+        .btn-outline {
+            border:1px solid #d4af37;
+            padding:10px 20px;
+            border-radius:999px;
+            color:#d4af37;
+            display:inline-block;
+        }
+        .glass-input {
+            background:rgba(255,255,255,0.05);
+            border:1px solid rgba(255,255,255,0.1);
+            padding:12px;
+            border-radius:12px;
+            width:100%;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section style="padding:80px 20px; text-align:center;">
+    <h1 style="font-size:48px;">
+        Khallouki <span class="gold">Studio</span>
+    </h1>
+    <p style="opacity:0.7; margin-top:10px;">
+        Premium Design Portfolio
+    </p>
+
+    <div style="margin-top:30px;">
+        <a href="#portfolio" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-outline">Contact</a>
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" style="padding:60px 20px;">
+    <h2 style="text-align:center; font-size:32px;">Selected Work</h2>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="padding:60px 20px; text-align:center;">
+    <h2>Contact</h2>
+
+    <form action="https://formspree.io/f/xpzvgqjg" method="POST" style="max-width:400px;margin:auto;">
+        <input class="glass-input" name="name" placeholder="Name" required /><br><br>
+        <input class="glass-input" name="email" placeholder="Email" required /><br><br>
+        <textarea class="glass-input" name="message" placeholder="Message" rows="5"></textarea><br><br>
+        <button class="btn-primary" type="submit">Send</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer style="text-align:center; padding:40px; opacity:0.5;">
+    © 2025 Khallouki Studio
+</footer>
+
+<!-- JS -->
+<script>
+    // GA safe init only (no errors if not set)
+    console.log("Khallouki Studio loaded");
+</script>
+
+</body>
+</html>
