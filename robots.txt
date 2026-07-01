@@ -1,0 +1,25 @@
+# ============================================================
+# robots.txt
+# Khallouki Studio
+# https://ibrakhallouki-dot.github.io/khalloukistudio/
+# ============================================================
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ibrakhallouki-dot.github.io/khalloukistudio/sitemap.xml
+
+# Optional: Block development and private folders if they exist
+Disallow: /admin/
+Disallow: /private/
+Disallow: /drafts/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+
+# ============================================================
+# End of file
+# ============================================================
