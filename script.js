@@ -41,3 +41,24 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
+// ===== Scroll Reveal Animation =====
+
+const revealElements = document.querySelectorAll(
+    ".portfolio-card, .service-card, .about-content, .contact-form, .stat-card"
+);
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        }
+    });
+}, {
+    threshold: 0.15
+});
+
+revealElements.forEach((el) => {
+    el.classList.add("hidden");
+    observer.observe(el);
+});
