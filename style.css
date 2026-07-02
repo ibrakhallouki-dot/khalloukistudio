@@ -770,4 +770,19 @@ ul {
 .show {
     opacity: 1;
     transform: translateY(0);
-   }
+}
+
+/* ===== Hero Logo ===== */
+
+.hero-logo {
+    width: 100%;
+    max-width: 420px;
+    margin: auto;
+    display: block;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, .4));
+    transition: .4s ease;
+}
+
+.hero-logo:hover {
+    transform: scale(1.03);
+}
